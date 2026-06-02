@@ -9,11 +9,18 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/Icon2.png',
+        url: '/Icon03.png',
+        sizes: '32x32',
         type: 'image/png',
       },
     ],
-    apple: '/Icon2.png',
+    apple: [
+      {
+        url: '/Icon03.png',
+        type: 'image/png',
+        sizes: '180x180',
+      }
+    ],
   },
 }
 
